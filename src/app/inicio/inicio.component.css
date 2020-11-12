@@ -1,0 +1,40 @@
+img {
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,0,75) ;
+    -moz-box-shadow: 0px 1px 6px rgba(0,0,0,0,75) ;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0,75) ;
+    margin-bottom:20px  
+}
+
+img:hover{
+    filter:gray;
+    -webkit-filter:grayscale(1) ;
+}
+
+.make-it-slow {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+
+.make-it-slow:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+p {
+    color:rgba(107,100,105) ;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: rgb(107, 105, 103);
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+  }
+
+.quienes_somos { 
+    background:#2E5A6A;
+    padding: 20px; 
+    width:400px;
+    height:450px;
+}
